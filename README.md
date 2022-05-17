@@ -6,19 +6,19 @@
 2. Session storage: It stores data for one session and the data is lost when the browser tab is closed.
 
 
-# What is a Cookie
+# What is a Cookie:-
         A cookie is a piece of data that is stored on your computer to be accessed by your browser. Cookies are saved as key/value pairs. For example, you can create a cookie named username as below,
 
 document.cookie = "username=John";
 
-# Why do you need a Cookie
+# Why do you need a Cookie:-
         Cookies are used to remember information about the user profile(such as username). It basically involves two steps,
 
       1.  When a user visits a web page, the user profile can be stored in a cookie.
         
       2.  Next time the user visits the page, the cookie remembers the user profile.
 
-# What are the options in a cookie
+# What are the options in a cookie:-
 There are few below options available for a cookie,
 
 1. By default, the cookie is deleted when the browser is closed but you can change this behavior by setting expiry date (in UTC time).
@@ -40,16 +40,16 @@ document.cookie =
 # Note:-
         You should define the cookie path option to ensure that you delete the right cookie. Some browsers doesn't allow to delete a cookie unless you specify a path parameter.  
         
-# What are the differences between cookie, local storage and session storage
+# What are the differences between cookie, local storage and session storage:-
 Below are some of the differences between cookie, local storage and session storage,        
   
-# What is the main difference between localStorage and sessionStorage
+# What is the main difference between localStorage and sessionStorage:-
 
           LocalStorage is the same as SessionStorage but it persists the data even when the browser is closed and reopened(i.e it has no expiration time)
           whereas in sessionStorage data gets cleared when the page session ends.
 
 
-# What are the methods available on session storage
+# What are the methods available on session storage:-
 
 The session storage provided methods for reading, writing and clearing the session data
 
