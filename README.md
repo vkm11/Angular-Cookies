@@ -1,3 +1,16 @@
+# install cookies (Angular-12):-
+npm install --save ngx-cookie-service
+
+*and import :- 
+app.module.ts:-
+
+import { CookieService } from 'ngx-cookie-service'
+'
+'
+'
+'
+providers:[CookieService],
+
 # What is web storage:-
       Web storage is an API that provides a mechanism by which browsers can store key/value pairs locally within the user's browser, in a much more intuitive fashion than using cookies. 
       The web storage provides two mechanisms for storing data on the client.
